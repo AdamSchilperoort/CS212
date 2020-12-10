@@ -1,0 +1,150 @@
+
+<!-- BLOG PAGE-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Form</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Css -->
+    <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet">
+    <link href="plugins/animate.css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+<body>
+
+    <!-- Preloader
+	============================================= -->
+    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+    <!-- Header
+	============================================= -->
+    <section class="main-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="#"><img src="img/logo/evensmaller.png" class="img-responsive" alt="logo"></a> -->
+                </div>
+                <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                    <div class="col-md-4 col-xs-4 nav-wrap">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html" class="page-scroll">Home</a></li>
+                            <li><a href="About.html" class="page-scroll">About</a></li>
+                            <li><a href="Blog.html" class="page-scroll">Blog</a></li>
+                            <li><a href="Photos.html" class="page-scroll">Photos</a><li>
+                            <li><a href="Game.html" class="page-scroll">Game</a><li>
+                            <li><a href="API.html" class="page-scroll">API</a><li>
+                            <li><a href="form.html" class="page-scroll">Form</a><li>
+                        </ul>
+                    </div>
+                    <div class="social-media hidden-xs">
+
+                        <ul class="nav navbar-nav">
+
+                            <li><a href="https://www.facebook.com/adam.schilperoort"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/schilperoort_a"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/adam-schilperoort/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/a_schilperoort/"><i class="fa fa-instagram"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div id="owl-hero" class="owl-carousel owl-theme">
+
+    </section>
+
+  <section id = "form">
+
+      <form action="" method="POST" target="_blank">
+          <div class ="form-field">
+              <label class="form-label" for="name">Name:</label><br>
+              <input type="text" id="name" name="name" placeholder="Name">
+          </div>
+          <div class ="form-field">
+              <label class="form-label" for="phone">Phone Number:</label><br>
+              <input type="text" id="number" name="phone" placeholder="Phone Number">
+          </div>
+          <div class ="form-field">
+              <label class="form-label"for="email">Email:</label><br>
+              <input type="text" id="email" name="email" placeholder="Email">
+          </div>
+          <div class ="form-field">
+              <label class="form-label" for="password">Password:</label><br>
+              <input type="password" id="password" name="password" placeholder="Password">
+          </div>
+          <div class ="form-field">
+              <label class="form-label" for="message">Message:</label><br>
+              <textarea rows="8" cols="50" id="message" name="message" placeholder="Message"></textarea>
+          </div>
+          <div class ="form-field">
+              <label class="form-label" for="dropdown">Hot Dogs Are:</label><br>
+              <select name ="dropdown">
+                  <option value="sandwiches">Sandwiches</option>
+                  <option value="taco">A Type of Taco</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <div class ="form-field">
+              <label class="form-label" for="water">Water is:</label><br>
+              <input type="radio" name="trait" value="wet" checked> Wet<br>
+              <input type="radio" name="trait" value="dry"> Dry<br>
+              <input type="radio" name="trait" value="other"> Other<br>
+          </div>
+          <div class="form-field">
+              <label for="submit"></label>
+              <input type="submit">
+          </div>
+      </form>
+
+  </section>
+
+
+                </div>
+    </section>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="bootstrap-assets/js/bootstrap.min.js"></script>
+     <script src="js/custom.js"></script>
+     <!-- JS PLUGINS -->
+     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+     <script src="js/jquery.easing.min.js"></script>
+     <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+     <script src="plugins/countTo/jquery.countTo.js"></script>
+     <script src="plugins/inview/jquery.inview.min.js"></script>
+     <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
+     <script src="plugins/WOW/dist/wow.min.js"></script>
+     <!-- GOOGLE MAP -->
+     <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+</body>
+
+</html>
